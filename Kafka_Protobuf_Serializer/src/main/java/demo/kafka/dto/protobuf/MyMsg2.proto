@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package protobuftest;
+option java_package = "com.kafka.dto.protobuf";
+//option java_outer_classname = "MyMsg2";
+option java_outer_classname = "OuterMsg2";
+
+
+message MyMsg2 {
+  string Address = 1;
+  string name = 2;
+}
